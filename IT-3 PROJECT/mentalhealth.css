@@ -1,0 +1,306 @@
+body
+{
+   background-color: white;
+   height: 90vh;
+}
+nav
+{
+    
+    position: fixed;
+    left: 400px;
+    background-color: transparent;
+    
+}
+.heads ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:transparent;
+    overflow: hidden;
+}
+  
+.heads li 
+{
+    float: right;
+    
+}
+  
+.heads a 
+{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+}
+  
+.heads a:hover {
+    background-color:rgb(250, 245, 245);
+    border-radius: 20px;
+}
+.section1
+{
+    background-color:white;
+    height: 80vh;
+    margin-top: -10px;
+    border-radius: 50px;
+}
+.home-introduction button
+{
+    color: white;
+    background-color: black;
+    margin-left: 800px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.logo-container
+{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    top: 90px;
+    right: 20px;
+}
+.logo-container h1
+{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  color:black;
+  width: fit-content;
+  padding: 5px 5px;
+  border-radius: 50px; 
+}
+.logo-container img
+{
+    border-radius: 300px;
+    height: 40vh;
+    width: 35vw;
+    position: relative;
+    right: 120px;
+
+}
+.home-introduction
+{
+  margin-left: 420px;
+  margin-top:-290px;
+  background-color: rgba(255, 255, 255, 0.911);
+  width: fit-content;
+  text-align: justify;
+  margin-right: 20px;
+  padding: 0 10px;
+  border-radius: 15px;
+}
+.home-introduction h1
+{
+   position: relative;
+   top: 20px;
+   text-align: center;
+   font-size: 45px;
+}
+.home-introduction p
+{
+    font-size: 25px;
+}
+.section2
+{
+    background-color: white;
+    margin-top: 30px;
+    height: 150vh;
+    border-radius: 50px;
+}
+
+.about-container
+{
+    background-color:  rgba(255, 255, 255, 0.911);
+    width: fit-content;
+    margin-left: 450px;
+    margin-right: 40px;
+    position: relative;
+    top: 150px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.about-container h1
+{
+    text-align: center;
+    font-size: 25px;
+}
+.about-container p
+{
+    font-size: 25px;
+    text-align: justify;
+}
+.about-container li
+{
+    font-size: 25px;
+}
+.about-image img
+{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    bottom: 700px;
+    left: 20px;
+    border-radius: 25px;
+    
+}
+.about-image .img2
+{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    bottom: 300px;
+    left: -370px;
+    border-radius: 25px;
+}
+.about-image
+{
+    height:fit-content;
+    width: fit-content;
+}
+.section3
+{
+    height: 200vh;
+    background-color:white;
+    margin-top: 30px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.section3 img
+{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 150px;
+    border: 10px black dashed;
+}
+.section3 h1
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 27px;
+  
+}
+.section3 p
+{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  width: 40vw;
+  font-size: 25px;
+  margin-left: 70px;
+}
+.counseling
+{
+
+  margin-top: 100px;
+}
+.psy
+{
+  margin-top: 100px;
+
+}
+.psy img
+{
+    margin-top: 32px;
+}
+.Educational h1
+{
+  position: relative;
+  bottom: 10px;
+}
+.Educational p
+{
+    position: relative;
+    bottom: 20px;
+}
+.Educational img
+{
+    position: relative;
+    bottom: 30px;
+}
+.section4
+{
+    height: 330vh;
+}
+.Terms
+{
+  position: relative;
+  top: 60px;
+  margin-left: 40px;
+
+}
+.Terms h1
+{
+  text-align: center;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 20px;
+
+}
+.Terms h2
+{
+    font-size: 30px;
+}
+.Terms p
+{
+    text-align: justify;
+    font-size: 20px;
+}
+.section5
+{
+    background-color: rgba(0,0,0,0.1);
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+    bottom: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px
+}
+.section5 img
+{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 80px;
+    position: relative;
+    left: 90px;
+    
+}
+.section5 li,a
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+.section5 .felix
+{
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+.section5 .matining
+{
+    margin-top: 50px;
+    margin-right: 400px;
+}
+.section5 .julius
+{
+    margin-left: 300px;
+}
+.section5 .evan
+{
+    margin-left: 500px;
+}
+
+
